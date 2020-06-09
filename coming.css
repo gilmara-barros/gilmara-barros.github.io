@@ -1,0 +1,64 @@
+body{
+  background: #000315;
+}
+.align{
+  position: relative;
+  min-width: 500px;
+  left: 0%;
+  top: 0%;
+  transform: translate(0, 10%);
+}
+
+.saber{
+  width: 12px;
+  height: 250px;
+  background:#fff;
+  margin: 5px;
+  border-radius: 10px;
+  
+  display: flex;
+  align-items: flex-end;
+}
+.sabers{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 4em 2em;
+  position: relative;
+    width: 500px;
+    left: 50%;
+    transform: translate(-50%, 0px);
+}
+.saber-blue.saber {
+  background: dodgerblue;
+  box-shadow: dodgerblue 0px 0px 11px 0px;
+}
+
+.saber-red.saber {
+  background: #ff0124;
+  box-shadow: #ff0124 0px 0px 11px 0px;
+}
+
+.punho{
+  width: 11px;
+  height: 30px;
+  background:#263238;
+  border: 2px solid #252121d6;
+  border-radius: 0px 0px 1px 1px;
+}
+.button{
+  width: 3px;
+  height: 3px;
+  background:#B71C1C;
+  border-radius: 50%;
+}
+
+h4{
+  color: orange;
+  text-align: center;
+  font-size: 4.5em;
+  font-family: 'Russo One', sans-serif;
+  top: -50px;
+  transform: translate(0, -200%);
+  position: relative;
+  text-shadow: -2px -1px 3px #0214a5;
+}
