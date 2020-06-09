@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Gilmara Barros</title>
+      <link rel="stylesheet" href="coming.css">
+      <link href="https://fonts.googleapis.com/css2?family=Alegreya&family=Alfa+Slab+One&family=Lato:wght@300&family=Righteous&family=Russo+One&family=Tenali+Ramakrishna&display=swap" rel="stylesheet">
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+        
+    </head>
+    <body>
+        <div class="align">
+  
+            <div class="sabers">
+              <div class="saber-blue saber">
+                <!--<div class="punho">
+                  <div class="button"></div>
+                </div>-->
+              </div>
+              <!--<div class="saber-green saber">
+                <div class="punho">
+                  <div class="button"></div>
+                </div>
+              </div>-->
+              <div class="saber-red saber">
+                <!--<div class="punho">
+                  <div class="button"></div>
+                </div>-->
+              </div>
+            </div>
+            <h4 class="logo">COMING SOON</h4>
+          </div>
+
+          <script>
+              gsap.to(".saber-blue", {
+                duration: 2,
+                rotation: 90,
+                repeat: 0,
+                y: 1,
+                x:60,
+                ease: "power4"
+                });
+
+                gsap.to(".saber-green", {
+                duration: 2,
+                rotation: 35,
+                repeat: 0,
+                y: 90,
+                x: 180,
+                ease: "circ",
+                scale: 0.5, 
+                });
+
+                gsap.to(".saber-red", {
+                duration: 3,
+                rotation: -90,
+                repeat: 0,
+                y: 100,
+                x: -110,
+                ease: "power4"
+                });
+                gsap.from(".logo", {
+                duration: 2,
+                //rotation: -90,
+                repeat: 0,
+                //ease: "power4",
+                scale: 0.2, 
+                opacity: 0.2,
+                ease: "expo"
+                });
+
+                gsap.to(window, {duration: 2, scrollTo: ".align"});
+
+          </script>
+
+    </body>
+</html>
