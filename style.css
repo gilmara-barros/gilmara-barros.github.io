@@ -16,6 +16,7 @@ body{
   width: 21em;
   height: 30em;
   background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   padding: 1em;
   position: relative;                             
   background:url('./Img/fundo2.png');
