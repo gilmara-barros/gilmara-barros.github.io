@@ -64,6 +64,10 @@ svg{
   width: 25px;
   height: 25px;
 }
+svg:hover{
+  width: 27px;
+  height: 27px;
+}
 .icons-container {
     display: inline-flex;
 }
